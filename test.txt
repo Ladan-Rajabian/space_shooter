@@ -14,3 +14,13 @@ void anagramme(String name, name1){
     print("die zwei gegebene Strings sind nicht Anagramme");
   }
 }
+
+void anagramme(String name, name1){
+  name = name.toLowerCase();
+  name1 = name1.toLowerCase();
+  if(name == name1.split("").reversed.join("")){
+    print("die zwei gegebene Strings sind Anagramme");
+  }else{
+    print("die zwei gegebene Strings sind nicht Anagramme");
+  }
+}
